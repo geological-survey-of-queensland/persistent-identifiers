@@ -88,7 +88,7 @@ No prefix
 ## IGSN Minting
 
 ## See also:
-[Persistent identifiers: awareness level](https://www.ands.org.au/guides/persistent-identifiers-awareness)
+[Persistent identifiers: awareness level](https://www.ands.org.au/guides/persistent-identifiers-awareness)  
 [Persistent identifiers: working level](https://www.ands.org.au/guides/persistent-identifiers-working)
 
 ## Licence
