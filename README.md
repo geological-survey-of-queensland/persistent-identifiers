@@ -76,6 +76,8 @@ This process applies to the following survey types:
     mt - magnetotelluric
     rm - radiometric
 
+Note that this does not apply to seismic surveys, which are a type of ground geophysical survey.
+
 ## Sample PID
 
 http://www.linked.data.gov.au/sample/qld/[prefix][sample_id]
