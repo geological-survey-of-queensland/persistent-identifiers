@@ -20,12 +20,12 @@ Where prefixes are:
 
 http://www.linked.data.gov.au/site/qld/[prefix][site_id]
 
-Where prefixes are: 
+Where prefixes are:
 
-    bh – borehole
-    mo – mineral occurrence
-    mi – mine
-    oc – outcrop
+    bh - borehole
+    mo - mineral occurrence
+    mi - mine
+    oc - outcrop
 
 ## Survey PID
 
@@ -33,34 +33,59 @@ http://www.linked.data.gov.au/survey/qld/[prefix][survey_id]
 
 Where prefixes are (business to review):
 
-    directional ds
-    electrical es
-    electromagnetic em
-    geochemistry gc
-    geotechnical gt
-    geothermics ge
-    gravity gv
-    hydrochemistry hy
-    magnetic mg
-    magnetotelluric mt
-    petrophysical pp
-    photographic ph
-    physical-geology pg
-    process ps
-    radiometric rm
-    seismic ss
-    spectral sp
+    ds - directional
+    el - electrical
+    em - electromagnetic
+    gc - geochemistry
+    gt - geotechnical
+    ge - geothermics
+    gv - gravity
+    hy - hydrochemistry
+    mg - magnetic
+    mt - magnetotelluric
+    pp - petrophysical
+    ph - photographic
+    pg - physical-geology
+    ps - process
+    rm - radiometric
+    ss - seismic
+    sp - spectral
+
+## Geophysical Survey PIDs in Geoproperties
+
+Aerial and Ground geophysics recorded in Geoproperties will use the following PID prefixes:
+
+    ag - aerial geophysics survey
+    gs - ground geophysics survey
+
+When the survey is exported out of Geoproperties to the Open Data Portal, the CKAN PID is created from the Observation Type.
+
+As an example:
+
+* Aerial gephysics survey AG1400 contained a magnetic and a radiometric survery.
+* An ODP magnetic survey dataset is created where Survey Title = AG1400 and Survey PID = MG1400
+* An ODP radiometric survey dataset is created where Survey Title = AG1400 and Survey PID = RM1400
+
+This process applies to the following survey types:
+
+    el - electrical
+    em - electromagnetic
+    gv - gravity
+    gg - gravity-gradiometry
+    mg - magnetic
+    mt - magnetotelluric
+    rm - radiometric
 
 ## Sample PID
 
 http://www.linked.data.gov.au/sample/qld/[prefix][sample_id]
 
-Where prefixes are: 
+Where prefixes are:
 
-    rc – rockchip
-    wr – whole rock
-    ss – stream sediments
-    sl – soil
+    rc - rockchip
+    wr - whole rock
+    ss - stream sediments
+    sl - soil
 
 More prefixes to come as vocab is developed.
 
