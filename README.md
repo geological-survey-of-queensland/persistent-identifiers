@@ -2,6 +2,13 @@
 
 An identifier is any label used to name some thing (person, place, event) uniquely (whether online or offline).  URLs are an example of an identifier. So are serial numbers, and personal names. A persistent identifier is guaranteed to be managed and kept up to date over a defined time period to reliably point to a digital or physical entity
 
+## Reports use their own prefix
+
+Reports will have their own prefix e.g. https://geoscience.data.qld.gov.au/report/cr12345  
+For reports migrated from QDEX Reports, we add the `cr` prefix to the existing report number from QDEX Reports.
+
+    cr - Report
+
 ## Feature PID
 
 http://www.linked.data.gov.au/feature/qld/[prefix][feature_id]
@@ -11,7 +18,7 @@ Where prefixes are:
     pr - Province
     sp - Sub Province
     og - Orogen
-    cr - Craton
+    cn - Craton
     dn - Depression
     bn - Basin
     tr - Trough
