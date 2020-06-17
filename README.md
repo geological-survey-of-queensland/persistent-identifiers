@@ -84,7 +84,7 @@ Where prefixes are:
     gforg - OrogenicCollage
     gfout - Outlier
     gfofz - OverturnedFold
-    pdu"  - PedostratigraphicUnit
+    gfpdu - PedostratigraphicUnit
     gfpnn - Peneplain
     gfprc - PresentContinent
     gfrnz - RangeZone
