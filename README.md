@@ -14,7 +14,8 @@ For reports migrated from QDEX Reports, we add the `cr` prefix to the existing r
 http://www.linked.data.gov.au/feature/qld/[prefix][feature_id]
 
 Where prefixes are:
-**GeoFeatures**
+
+    **Geofeatures**
     gfabz - AbundanceZone
     gfanc - AncientContinent
     gfann - Anticline
@@ -120,7 +121,7 @@ Where prefixes are:
     gfunc - Unconformity
     gfwnw - Window
 
-**AdminFeatures**
+    **AdminFeatures**
     PP - ProspectingPermit
     ATP - AuthorityToProspect
     EPC - ExplorationPermitCoal
