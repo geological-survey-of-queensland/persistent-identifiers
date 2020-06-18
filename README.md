@@ -14,7 +14,7 @@ For reports migrated from QDEX Reports, we add the `cr` prefix to the existing r
 http://www.linked.data.gov.au/feature/qld/[prefix][feature_id]
 
 Where prefixes are:
-
+**GeoFeatures**
     gfabz - AbundanceZone
     gfanc - AncientContinent
     gfann - Anticline
@@ -120,8 +120,30 @@ Where prefixes are:
     gfunc - Unconformity
     gfwnw - Window
 
-*note: Administrative features (i.e. Resource Permits use thier abbreviation such as PL for Petroleum Lease)
-
+**AdminFeatures**
+    PP - ProspectingPermit
+    ATP - AuthorityToProspect
+    EPC - ExplorationPermitCoal
+    EPG - ExplorationPermitGeothermal
+    EPQ - ExplorationPermitGreenhouseGas
+    EPM - ExplorationPermitMineral
+    GL - GeothermalLease
+    QL - GreenhouseGasLease
+    MDL - MineralDevelopmentLicence
+    MFS - MineralFreeholdSelection
+    MC - MiningClaim
+    ML - MiningLease
+    OEP - OffshoreExplorationPermit
+    PFL - PetroleumFacilityLicence
+    PL - PetroleumLease
+    PPL - PetroleumPipelineLicence
+    PPP - PetroleumProspectingPermit
+    PSL - PetroleumSurveyLicence
+    PCA - PotentialCommercialArea
+    PGA - PotentialGeothermalCommercialArea
+    PSA - PotentialGreenhouseGasStorageCommercialArea
+    DAA - DataAcquisitionAuthority
+    WMA - WaterMonitoringAuthority
 
 ## Site PID
 
@@ -168,7 +190,7 @@ Where prefixes are (business to review):
     gp - geophysical
     gt - geotechnical
     hy - hydrochemistry
-    pp - petrophysical
+    py - petrophysical
     pg - physical-geology
     ss - seismic
     st - spatial
