@@ -145,6 +145,8 @@ Where prefixes are:
     PSA - PotentialGreenhouseGasStorageCommercialArea
     DAA - DataAcquisitionAuthority
     WMA - WaterMonitoringAuthority
+    
+*Note: Administrative features are currently controlled in a separate system and their unique ID will be the Name and Number administered by Qld Government e.g. PL 1, ML 999, ATP 123
 
 ## Site PID
 
