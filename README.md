@@ -1,13 +1,26 @@
 # Persistent Identifiers
 
-An identifier is any label used to name some thing (person, place, event) uniquely (whether online or offline).  URLs are an example of an identifier. So are serial numbers, and personal names. A persistent identifier is guaranteed to be managed and kept up to date over a defined time period to reliably point to a digital or physical entity
+An identifier is any label used to name some thing (person, place, event) uniquely (whether online or offline).  URLs are an example of an identifier. So are serial numbers, and personal names. A persistent identifier is guaranteed to be managed and kept up to date over a defined time period to reliably point to a digital or physical entity.
 
-## Reports use their own prefix
+## PID Structure
 
-Reports will have their own prefix e.g. https://geoscience.data.qld.gov.au/report/cr12345  
-For reports migrated from QDEX Reports, we add the `cr` prefix to the existing report number from QDEX Reports.
+* The PID structure for most PIDs is XXnnnnnn, i.e. two (or more) alpha characters and six numerals. Numeral have leading zeros to acheive 6 numerals.
+* The alpha characters are in upper case.
 
-    cr - Report
+## Reports, datasets and map collections use their own prefix
+
+Reports will have their own prefix e.g. https://geoscience.data.qld.gov.au/report/CR12345  
+For reports migrated from QDEX Reports, we add the `CR` prefix to the existing report number from QDEX Reports.
+
+    CR - Report
+
+Datasets will use the prefix DS. In the absence of a minting service, the incremental numbering will be done manually in a spreadsheet.
+
+    DS - Dataset
+
+Map collections will use the prefix MP. In the absence of a minting service, the incremental numbering will be done manually in a spreadsheet.
+
+    MA - Map Collection
 
 ## Feature PID
 
