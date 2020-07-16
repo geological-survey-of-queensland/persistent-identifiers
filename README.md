@@ -20,7 +20,7 @@ Datasets will use the prefix DS. In the absence of a minting service, the increm
 
 Map collections will use the prefix MP. In the absence of a minting service, the incremental numbering will be done manually in a spreadsheet.
 
-    MA - Map Collection
+    MR - Map Collection
 
 ## Feature PID
 
