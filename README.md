@@ -190,6 +190,7 @@ Where prefixes are:
     qy - quarry
     pt - pit
     pj - project-site
+    ra - resourca-authority
     th - trench
     wb - wellbore
     uk - unknown
