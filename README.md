@@ -24,7 +24,7 @@ Map collections will use the prefix MP. In the absence of a minting service, the
 
 ## Feature PID
 
-http://www.linked.data.gov.au/feature/qld/[prefix][feature_id]
+https://linked.data.gov.au/feature/qld/[prefix][feature_id]
 
 Where prefixes are:
 
@@ -163,7 +163,7 @@ Where prefixes are:
 
 ## Site PID
 
-http://www.linked.data.gov.au/site/qld/[prefix][site_id]
+https://linked.data.gov.au/site/qld/[prefix][site_id]
 
 Where prefixes are:
 
@@ -198,7 +198,7 @@ Where prefixes are:
 
 ## Survey PID
 
-http://www.linked.data.gov.au/survey/qld/[prefix][survey_id]
+https://linked.data.gov.au/survey/qld/[prefix][survey_id]
 
 Where prefixes are (business to review):
 
@@ -242,7 +242,7 @@ Note that this does not apply to seismic surveys, which are a type of ground geo
 
 ## Sample PID
 
-http://www.linked.data.gov.au/sample/qld/[prefix][sample_id]
+https://linked.data.gov.au/sample/qld/[prefix][sample_id]
 
 Where prefixes are:
 
@@ -300,7 +300,7 @@ More prefixes to come as vocab is developed.
 
 ## Observation PID
 
-http://www.linked.data.gov.au/observation/qld/[prefix][observation_id]
+https://linked.data.gov.au/observation/qld/[prefix][observation_id]
 
     ALTN - alteration
     AUGR - auger-hole-description
@@ -364,13 +364,13 @@ More prefixes to come as vocab is developed.
 
 ## Result
 
-http://www.linked.data.gov.au/result/qld/[result_id]
+https://linked.data.gov.au/result/qld/[result_id]
 
 No prefix
 
 ## Geological property
 
-http://www.linked.data.gov.au/geoproperty/qld/[geoproperty_id]
+https://linked.data.gov.au/geoproperty/qld/[geoproperty_id]
 
 No prefix
 
