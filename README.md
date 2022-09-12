@@ -134,33 +134,6 @@ Where prefixes are:
     gfunc - Unconformity
     gfwnw - Window
 
-    **AdminFeatures**
-    PP - ProspectingPermit
-    ATP - AuthorityToProspect
-    EPC - ExplorationPermitCoal
-    EPG - ExplorationPermitGeothermal
-    EPQ - ExplorationPermitGreenhouseGas
-    EPM - ExplorationPermitMineral
-    GL - GeothermalLease
-    QL - GreenhouseGasLease
-    MDL - MineralDevelopmentLicence
-    MFS - MineralFreeholdSelection
-    MC - MiningClaim
-    ML - MiningLease
-    OEP - OffshoreExplorationPermit
-    PFL - PetroleumFacilityLicence
-    PL - PetroleumLease
-    PPL - PetroleumPipelineLicence
-    PPP - PetroleumProspectingPermit
-    PSL - PetroleumSurveyLicence
-    PCA - PotentialCommercialArea
-    PGA - PotentialGeothermalCommercialArea
-    PSA - PotentialGreenhouseGasStorageCommercialArea
-    DAA - DataAcquisitionAuthority
-    WMA - WaterMonitoringAuthority
-    
-*Note: Administrative features are currently controlled in a separate system and their unique ID will be the Name and Number administered by Qld Government e.g. PL 1, ML 999, ATP 123
-
 ## Site PID
 
 https://linked.data.gov.au/site/qld/[prefix][site_id]
@@ -190,10 +163,37 @@ Where prefixes are:
     qy - quarry
     pt - pit
     pj - project-site
-    ra - resourca-authority
+    ra - resource-authority
     th - trench
     wb - wellbore
     uk - unknown
+
+Note: Administrative features are currently controlled in a separate system and their unique ID will be the Name and Number administered by Qld Government e.g. PL 1, ML 999, ATP 123. Although a feature for that system, they equate to a resource-authority (ra) site in the geological context 
+
+    PP - ProspectingPermit
+    ATP - AuthorityToProspect
+    EPC - ExplorationPermitCoal
+    EPG - ExplorationPermitGeothermal
+    EPQ - ExplorationPermitGreenhouseGas
+    EPM - ExplorationPermitMineral
+    GL - GeothermalLease
+    QL - GreenhouseGasLease
+    MDL - MineralDevelopmentLicence
+    MFS - MineralFreeholdSelection
+    MC - MiningClaim
+    ML - MiningLease
+    OEP - OffshoreExplorationPermit
+    PFL - PetroleumFacilityLicence
+    PL - PetroleumLease
+    PPL - PetroleumPipelineLicence
+    PPP - PetroleumProspectingPermit
+    PSL - PetroleumSurveyLicence
+    PCA - PotentialCommercialArea
+    PGA - PotentialGeothermalCommercialArea
+    PSA - PotentialGreenhouseGasStorageCommercialArea
+    DAA - DataAcquisitionAuthority
+    WMA - WaterMonitoringAuthority
+    
 
 
 ## Survey PID
@@ -209,6 +209,9 @@ Where prefixes are (business to review):
     hy - hydrochemistry
     py - petrophysical
     pg - physical-geology
+    re - resource extractives (quarry and construction resources)
+    rp - resource production
+    rs - resource sales
     ss - seismic
     st - spatial
     sp - spectral
