@@ -1,11 +1,12 @@
 # Persistent Identifiers
 
-An identifier is any label used to name some thing (person, place, event) uniquely (whether online or offline).  URLs are an example of an identifier. So are serial numbers, and personal names. A persistent identifier is guaranteed to be managed and kept up to date over a defined time period to reliably point to a digital or physical entity.
+An identifier (ID) is any label used to name some thing (person, place, event) uniquely (whether online or offline).  URLs are an example of an identifier, as are serial numbers or personal names. A persistent identifier (PID) differs, however, in that it is guaranteed to be managed and kept up to date over a defined time period to reliably point to a digital or physical entity.
 
 ## PID Structure
 
-* The PID structure for most PIDs is XXnnnnnn, i.e. two (or more) alpha characters and six numerals. Numeral have leading zeros to acheive 6 numerals.
-* The alpha characters are in upper case.
+The PID structure for most entities managed by the Geological Survey of Queensland is **XXnnnnnn**, i.e. two (or more) alpha characters and six numerals. Numerals have leading zeros to acheive 6 numerals.
+
+The alpha characters provide some indication of the type of entity being assigned a PID. For example, "RA003459" indicates this PID is for a Resource Authority with an ID of 3459. "GF102201" indicates a Geological Feature with ID 102201.
 
 ## Reports, datasets and map collections use their own prefix
 
@@ -389,14 +390,18 @@ The content of this repository is licensed for use with the [Creative Commons 4.
 
 
 ## Contacts 
-*owner*:  
-**Mark Gordon**  
-*Director - Geoscience Information*  
-Geological Survey of Queensland  
-<mark.gordon@dnrme.qld.gov.au>  
 
-*author*:  
-**David Crosswell**  
-*Enterprise Architect*  
-CrossLateral  
-<https://crosslateral.com.au>
+*System owner*:  
+**Mark Gordon**,
+Geological Survey of Queensland,
+Department of Resources,
+Brisbane, QLD, Australia,
+<mark.gordon@resources.qld.gov.au>  
+
+*Contributors*:  
+**Vance Kelly**,
+Principal Data Manager,
+Geological Survey of Queensland,
+Department of Resources,
+Brisbane, QLD, Australia,  
+<vance.kelly@resources.qld.gov.au>
