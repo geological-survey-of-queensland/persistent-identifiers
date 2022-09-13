@@ -1,6 +1,6 @@
 # Persistent Identifiers
 
-An identifier (ID) is any label used to name some thing (person, place, event) uniquely (whether online or offline).  URLs are an example of an identifier, as are serial numbers or personal names. A persistent identifier (PID) differs, however, in that it is guaranteed to be managed and kept up to date over a defined time period to reliably point to a digital or physical entity.
+An identifier (ID) is any label used to uniquely name some thing (person, place, event), whether online or offline.  URLs are an example of an identifier, as are serial numbers or personal names. A persistent identifier (PID) differs, however, in that it is guaranteed to be managed and kept up to date over a defined time period to reliably point to a digital or physical entity.
 
 ## PID Structure
 
